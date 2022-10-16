@@ -11,7 +11,6 @@
 		A400497028E4719200824B46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400496F28E4719200824B46 /* SceneDelegate.swift */; };
 		A400497228E4719200824B46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400497128E4719200824B46 /* ViewController.swift */; };
 		A400497528E4719200824B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A400497328E4719200824B46 /* Main.storyboard */; };
-		A400497828E4719200824B46 /* MovieApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A400497628E4719200824B46 /* MovieApp.xcdatamodeld */; };
 		A400497A28E4719600824B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A400497928E4719600824B46 /* Assets.xcassets */; };
 		A400497D28E4719600824B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A400497B28E4719600824B46 /* LaunchScreen.storyboard */; };
 		A400498528E474F500824B46 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400498428E474F500824B46 /* Model.swift */; };
@@ -30,7 +29,6 @@
 		A400496F28E4719200824B46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A400497128E4719200824B46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A400497428E4719200824B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A400497728E4719200824B46 /* MovieApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieApp.xcdatamodel; sourceTree = "<group>"; };
 		A400497928E4719600824B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A400497C28E4719600824B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A400497E28E4719600824B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				A400496F28E4719200824B46 /* SceneDelegate.swift */,
 				A400497928E4719600824B46 /* Assets.xcassets */,
 				A400497E28E4719600824B46 /* Info.plist */,
-				A400497628E4719200824B46 /* MovieApp.xcdatamodeld */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -277,7 +274,6 @@
 				A467ACDB28ED6C5400369CFB /* MovieCell.swift in Sources */,
 				A400496E28E4719200824B46 /* AppDelegate.swift in Sources */,
 				A41651BC28EDBEC10048BBEE /* DetailsVC.swift in Sources */,
-				A400497828E4719200824B46 /* MovieApp.xcdatamodeld in Sources */,
 				A400497028E4719200824B46 /* SceneDelegate.swift in Sources */,
 				A4914FE728F4893B009CC1DF /* MovieManager.swift in Sources */,
 				A4914FE528F46D63009CC1DF /* Constants.swift in Sources */,
@@ -502,19 +498,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A400497628E4719200824B46 /* MovieApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A400497728E4719200824B46 /* MovieApp.xcdatamodel */,
-			);
-			currentVersion = A400497728E4719200824B46 /* MovieApp.xcdatamodel */;
-			path = MovieApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A400496228E4719200824B46 /* Project object */;
 }
